@@ -1,0 +1,172 @@
+:root {
+  --color-orange: #f16718;
+  --color-orange-hover: #ff9b62;
+  --color-blue: #162542;
+  --color-blue-grey: #7b8bad;
+  --color-grey: #e8eff2;
+  --color-white: #ffffff;
+  --pading-mobile: 2.3rem 2.4rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  display: grid;
+  grid-template-rows: repeat(5, -webkit-min-content);
+  grid-template-rows: repeat(5, min-content);
+}
+
+.h3-style {
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--color-blue);
+}
+
+.p-style {
+  font-size: 1.6rem;
+  color: var(--color-blue-grey);
+}
+
+.header {
+  padding: var(--pading-mobile);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-btn {
+  color: var(--color-blue);
+  background-color: var(--color-grey);
+}
+
+.btn {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1.5rem 1.4rem;
+  border-radius: 5px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: repeat(2, -webkit-min-content);
+  grid-template-rows: repeat(2, min-content);
+}
+.main-h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.main-content {
+  padding: var(--pading-mobile);
+}
+.main-p {
+  margin-top: 3.7rem;
+}
+.main-buttons {
+  width: min(100%, 50rem);
+  margin-top: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main-buttons .main-btn {
+  display: inline-block;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+.main-buttons .main-date {
+  text-transform: uppercase;
+  color: var(--color-blue-grey);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-right: 2.8rem;
+}
+.main-img-box {
+  margin-top: 7.2rem;
+  min-height: 33.1rem;
+  margin-left: var(--pading-mobile);
+  background-image: url(assets/mobile/image-keyboard.jpg);
+  background-size: cover;
+  margin-left: 3.1rem;
+  border-radius: 1.5rem;
+}
+
+.section-gallery {
+  display: flex;
+  justify-content: end;
+  margin-top: 2.3rem;
+}
+.section-gallery-img--1 {
+  min-height: 19.3rem;
+  min-width: 12.9rem;
+  background-color: var(--color-orange);
+  background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
+  background-blend-mode: multiply;
+  opacity: 0.35;
+  border-radius: 2rem;
+  background-size: contain;
+  transform: translateX(-3.4rem);
+}
+.section-gallery-img--2 {
+  background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
+  min-height: 19.3rem;
+  min-width: 22rem;
+  background-size: cover;
+  margin-right: 1.8rem;
+  border-radius: 2rem;
+  opacity: 0.35;
+}
+
+.section-features {
+  margin-top: 6.8rem;
+  text-align: center;
+  padding: 0px 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-features p {
+  margin-top: 2.4rem;
+}
+.section-features-heading--h2 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0px 6rem;
+  color: var(--color-blue);
+}
+.section-features-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-features-item-icon {
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: var(--color-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 6.4rem;
+}
+.section-features-item-icon:first-of-type {
+  margin-top: 11.1rem;
+}/*# sourceMappingURL=style.css.map */
