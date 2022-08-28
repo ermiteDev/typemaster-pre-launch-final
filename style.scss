@@ -182,9 +182,25 @@ body {
       border-radius: 20px;
       margin-top: 6.4rem;
 
-      &:first-of-type {
+      &--1 {
         margin-top: 11.1rem;
       }
     }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9.6rem 0px 5rem 0px;
+  &-span-1 {
+    color: var(--color-blue-grey);
+    font-weight: 700;
+    margin-right: 0.8rem;
+  }
+
+  &-span-2 {
+    margin-left: 0.8rem;
   }
 }
